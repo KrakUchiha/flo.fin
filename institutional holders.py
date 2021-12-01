@@ -9,20 +9,15 @@ import pandas as pd
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-
-Tickers = ('apvo')
-
-
-
-for x in Tickers:
-    kxin = yf.Ticker(Tickers)
-
-# show major holders
-A=kxin.major_holders
-B=kxin.institutional_holders
-
-
-print(A)
-print(B)
-
-# show institutional holders
+Def institutions_holding():
+    Tickers = ('apvo')
+    for x in Tickers:
+    stock = yf.Ticker(Tickers)
+    # show major holders
+    A=stock.major_holders
+    B=stock.institutional_holders
+    print(A)
+    print(B)
+    # show institutional holders
+institutions_holding()
+    
