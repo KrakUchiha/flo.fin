@@ -1,0 +1,36 @@
+@editing config files directly
+
+@config commands@setup
+get all config settings
+query username and email details
+create alias command for git commands
+setup username and email
+setup default editor for use
+
+
+@setup
+command to set up a git repo
+command to set up a bare git repo
+
+@workflow@setup
+command to clone an existing github repo to computer/current dir
+command to clone an existing github repo to computer/specific dir
+
+@workflow@staging area
+add a specific file to a staging area
+add all files to a staging area
+
+@workflow@commit area
+record files to version history with a message 
+
+
+
+@queries
+get current directory
+get content of current directory
+track changes not yet staged
+track changes staged not yet commited
+track changes after last committing
+track changes between 2 commits
+track changes between two branches
+
